@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIMATI - Himpunan Mahasiswa Teknologi Informasi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/jpg" href="photo/logo hima.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="navbar container">
+            <div class="logo">
+                <img class="himatilog" src="Photo/logo hima.jpg">
+
+            </div>
+            <button class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#divisi">Divisi</a>
+                <a href="#anggota">Anggota</a>
+                <a href="#kegiatan">Kegiatan</a>
+                <a href="#sejarah">Sejarah</a>
+                <a href="#dokumentasi">Dokumentasi</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-wrapper">
+            <div class="hero-content">
+                <h1>HIMATI: Menyatukan, Berinovasi, dan Berkontribusi untuk Teknologi Informasi</h1>
+                <p>Wadah kolaboratif mahasiswa Teknologi Informasi untuk mengembangkan potensi akademik, kreativitas, dan inovasi teknologi digital.</p>
+                <a href="#tentang" class="btn btn-primary">Jelajahi Lebih Jauh</a>
+            </div>
+            <div class="hero-video">
+                <div class="video-placeholder">
+                    <img src="Photo/Fotogroup1.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tentang" class="tentang section-padding">
+        <div class="container">
+            <h2 class="section-title">Tentang Kami</h2>
+            <div class="about-grid">
+                <div class="about-box">
+                    <h3>Visi</h3>
+                    <p>Sebagai wadah aspirasi, inovasi, dan kolaborasi, yang mewujudkan karakter Islami dan unggul secara profesional, guna memberikan kontribusi nyata bagi program studi dan masyarakat.</p>
+                </div>
+                <div class="about-box">
+                    <h3>Misi</h3>
+                    <p>Secara proaktif menampung, mengawal, dan memperjuangkan aspirasi seluruh mahasiswa Teknologi Informasi, serta membangun budaya komunikasi internal yang terbuka, solid, dan transparan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="divisi" class="divisi section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Divisi Organisasi</h2>
+            <div class="grid-3">
+                <div class="card card-divisi">
+                    <img src="Photo/Riset TI.jpg" alt="Divisi Riset Teknologi informasi">
+                    <div class="card-body">
+                        <h3>Divisi Riset Teknologi</h3>
+                        <p>Fokus pada pengembangan skill coding, workshop teknologi, riset, dan kompetisi mahasiswa.</p>
+                        <a href="mailto:iptek@himati.org" class="contact-link">Hubungi Kontak &rarr;</a>
+                    </div>
+                </div>
+                <div class="card card-divisi">
+                    <img src="Photo/humas.jpg" alt="Divisi Humas">
+                    <div class="card-body">
+                        <h3>Divisi Hubungan Masyarakat</h3>
+                        <p>Menjembatani komunikasi antara himpunan dengan pihak korporat, alumni, serta publik luar.</p>
+                        <a href="mailto:humas@himati.org" class="contact-link">Hubungi Kontak &rarr;</a>
+                    </div>
+                </div>
+                <div class="card card-divisi">
+                    <img src="Photo/media kreatif.jpg" alt="Media Kreatif">
+                    <div class="card-body">
+                        <h3>Divisi Media Kreatif</h3>
+                        <p>Berfokus pada pengembangan skill-skill kreatif yang mencakup editing, fotografi, dan videografi</p>
+                        <a href="mailto:internal@himati.org" class="contact-link">Hubungi Kontak &rarr;</a>
+                    </div>
+                </div>
+                <div class="card card-divisi">
+                    <img src="Photo/Sosial Budaya.jpg" alt="Divisi Sosial & Budaya">
+                    <div class="card-body">
+                        <h3>Divisi Sosial & Budaya</h3>
+                        <p>Menjembatani ilmu teknologi dan sosial budaya indonesia</p>
+                        <a href="mailto:sosial@himati.org" class="contact-link">Hubungi Kontak &rarr;</a>
+                    </div>
+                </div>
+                <div class="card card-divisi">
+                    <img src="Photo/minat bakat.jpg" alt="Divisi Sosial & Budaya">
+                    <div class="card-body">
+                        <h3>Divisi Minat dan Bakat</h3>
+                        <p>Menilai dan mengembangan minat dan bakat yang berbeda antara mahasiswa</p>
+                        <a href="mailto:sosial@himati.org" class="contact-link">Hubungi Kontak &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="anggota" class="anggota section-padding">
+        <div class="container">
+            <h2 class="section-title">Profil Anggota</h2>
+            
+            <div class="search-container">
+                <input type="text" id="searchBar" placeholder="Cari anggota berdasarkan nama, divisi, atau angkatan...">
+            </div>
+
+            <div class="grid-4" id="memberGrid">
+                </div>
+
+            <div class="testi-section">
+                <h3 class="sub-title">Apa Kata Mereka?</h3>
+                <div class="testi-wrapper">
+                    <blockquote class="testi-box">
+                        <p>"We Create We Innovate"</p>
+                        <cite>- Muhammad Isyfan Khoiri, Ketua HIMATI 2026</cite>
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kegiatan" class="kegiatan section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Kalender & Laporan Kegiatan</h2>
+            <div class="grid-2">
+                <div class="kegiatan-box">
+                    <h3>Akan Datang (Ikuti Event)</h3>
+                    <div class="event-item">
+                        <div class="event-date">03 <span>okt</span></div>
+                        <div class="event-detail">
+                            <h4>Hello IT World</h4>
+                            <p>Menyambut Mahasiswa baru dalam pengetahuan dunia IT terkini </p>
+                            <a href="https://forms.gle/7qMsKKwKfBoSBjWC6"><button class="btn btn-sm btn-accent" >Daftar Sekarang</button></a>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-date">- <span>-</span></div>
+                        <div class="event-detail">
+                            <h4>Coming Soon</h4>
+                            <p>Coming Soon</p>
+                            <button class="btn btn-sm btn-accent">Coming Soon</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="kegiatan-box">
+                    <h3>Laporan Kegiatan Terkini</h3>
+                    <div class="report-item">
+                        <h4>HIMATI Hakrab 2026</h4>
+                        <p>Menyambut anggota HIMA angkatan 2025 dengan memberikan edukasi digital serta memainkan games yang menarik.</p>
+                    </div>
+                    <div class="report-item">
+                        <h4>Seminar Hello IT World</h4>
+                        <p>Seminar menyambut mahasiswa angkatan 2026 dengan edukasi digital.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sejarah" class="sejarah section-padding">
+        <div class="container">
+            <h2 class="section-title">Garis Waktu Sejarah</h2>
+            <div class="timeline">
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h3>2020</h3>
+                        <p><strong>Deklarasi Pendirian:</strong> HIMATI resmi dibentuk oleh forum mahasiswa TI angkatan pertama untuk membangun wadah aspirasi terstruktur.</p>
+                    </div>
+                </div>
+                <div class="timeline-container right">
+                    <div class="content">
+                        <h3>2023</h3>
+                        <p><strong>Akreditasi & Ekspansi:</strong> Membuka divisi inkubasi startup internal dan mulai memenangkan kompetisi nasional.</p>
+                    </div>
+                </div>
+                <div class="timeline-container left">
+                    <div class="content">
+                        <h3>2026</h3>
+                        <p><strong>HIMATI Modern:</strong> Meluncurkan transformasi platform digital terpadu untuk pengarsipan karya mahasiswa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dokumentasi" class="dokumentasi section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Galeri Dokumentasi</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="Photo/Hakrab.jpg" alt="Hakrab"></div>
+                <div class="gallery-item"><img src="Photo/sumbangan1.jpg" alt="sumbangan"></div>
+                <div class="gallery-item"><img src="Photo/sumbangan2.jpg" alt="meminta sumbangan"></div>
+                <div class="gallery-item"><img src="Photo/hakrab2.jpg" alt="Hakrab"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="kontak section-padding">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <div class="grid-2">
+                <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nama Lengkap</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan / Aspirasi</label>
+                        <textarea id="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+                <div class="contact-info">
+                    <h3>Sekretariat HIMATI</h3>
+                    <p>Jl. Rang Kayo Hitam, Cadika, Kec. Rimbo Tengah, Kabupaten Bungo, Jambi 37211</p>
+                    <div class="map-placeholder">
+                        <div class="map-mock"><a href="https://www.google.com/maps/place/Universitas+Muhammadiyah+Muara+Bungo+(UMMUBA)/@-1.4944885,102.1204051,20.25z/data=!4m6!3m5!1s0x2e2e9f79a4f035bd:0x31b5dd644e05f2e!8m2!3d-1.4945079!4d102.120471!16s%2Fg%2F11c55b3jxl?entry=ttu&g_ep=EgoyMDI2MDkyOS4wIKXMDSoASAFQAw%3D%3D"><img src="Photo/maps.png"></a></div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/himati.ummuba/">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 HIMATI. Built with Passion & Technology.</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeRegister()">&times;</span>
+            <h3>Formulir Pendaftaran</h3>
+            <h4 id="modalEventTitle" style="color: var(--orange); margin-bottom: 20px;"></h4>
+            <form id="eventForm">
+                <div class="form-group">
+                    <label>NIM Mahasiswa</label>
+                    <input type="text" required>
+                </div>
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Pendaftaran</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
